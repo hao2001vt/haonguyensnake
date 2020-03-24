@@ -116,5 +116,8 @@ function draw() {
     }
 
     snake.unshift(newHead);
+    ctx.fillStyle = "white";
+    ctx.font = "45px Changa one";
+    ctx.fillText(score,2*box,1.6*box);s
 }
 let game = setInterval(draw, time);
